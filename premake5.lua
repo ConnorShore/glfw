@@ -13,7 +13,9 @@ project "glfw"
         "src/context.c",
         "src/init.c",
         "src/window.c",
-        "src/monitor.c"   
+        "src/monitor.c",
+        "src/input.c",
+        "src/vulkan.c"
     }
 
     filter "system:windows"
